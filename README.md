@@ -22,3 +22,11 @@ An innocent JSP page:
 <br/>
 <input type="checkbox" <v:checked test="${obj.attr eq true}"/> value="0"/>
 ```
+
+If you want use user images from Gravatar API you can do this:
+
+```
+<v:gravatar email="${usuarioMaroto.email}" cssClass="foo" imageSize="50"/>
+```
+
+;)
